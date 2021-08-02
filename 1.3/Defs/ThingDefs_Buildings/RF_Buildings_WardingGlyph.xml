@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="RF_WardingRuneBase" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building_TrapExplosive</thingClass>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.1,0,0.8,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconOffset>(0,-0.14)</uiIconOffset>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <Mass>2</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>1</Beauty>
+      <TrapSpringChance>1.0</TrapSpringChance>
+    </statBases>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapPeacefulWildAnimalsSpringChanceFactor>0.25</trapPeacefulWildAnimalsSpringChanceFactor>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>RF_ArcaneDefences</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="RF_WardingRuneBase">
+    <defName>RF_MinorWardingRune</defName>
+    <label>minor warding rune</label>
+    <description>A carefully crafted rune that discharges distructive magical energy upon touch or damage.\n\nThis variant is easier and cheaper to make but is accordingly weaker.</description>
+    <graphicData>
+      <texPath>Things/Building/Security/RF_MinorWardingRune</texPath>
+    </graphicData>
+    <stuffCategories>
+      <li>RF_Gemstones</li>
+    </stuffCategories>
+    <costStuffCount>3</costStuffCount>
+    <comps>
+      <li Class="RimFantasy.CompProperties_GlowerStuffable">
+        <glowRadius>2</glowRadius>
+        <stuffGlow>true</stuffGlow>
+      </li>
+      <li Class="RimFantasy.CompProperties_ExplosiveStuffed">
+        <wickTicks>15</wickTicks>
+        <explosiveRadius>4</explosiveRadius>
+        <explosiveDamageTypeBaseDefName>RF_Flame_LargeSquare</explosiveDamageTypeBaseDefName>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
+        <postExplosionSpawnBaseDefName>RF_RubbleShards</postExplosionSpawnBaseDefName>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+      </li>
+      <!--<li Class="CompProperties_Explosive">
+        <explosiveRadius>4</explosiveRadius>
+        <explosiveDamageType>RF_Flame_MediumSquareRF_Carnelian</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Carnelian</postExplosionSpawnThingDef>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>-->
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef>
+
+</Defs>
