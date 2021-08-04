@@ -43,7 +43,7 @@
         <glowColor>(115,64,166)</glowColor>
       </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>240</wickTicks>
+        <wickTicks>180</wickTicks>
         <explosiveRadius>4</explosiveRadius>
         <explosiveDamageType>RF_Flame_MediumSquareRF_Amethyst</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
