@@ -1,13 +1,14 @@
 # RimFantasy - Arcane Weapons
 
-This mod adds X new magical weapons that hold untold power.
+This mod adds a number of magical defences designed to provide security to an area where manpower is insufficient. Expensive to craft but makes it up by being exceptionally powerful.
 
-These weapons are infused with magic and can only be wielded by one person. Expensive to make as they are difficult to craft, much resource have to be invested into their creation and impure materials are lost in the process.
+The gemstone pylons hold large amount of magical energy and will explode upon imminent destruction.
 
 ### Features
 
-- x Arcane weapons, each with its unique quirks
-- 2 Research
+- 2 Explosive Mines
+- 2 Defence Pylons
+- 1 Research
 
 ### Balance
 
@@ -22,13 +23,14 @@ Balance feedbacks are welcomed, please provide context when doing so.
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons/releases/tag/v1.0)
-- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890)
-- [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Weapons)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---Arcane-Defences/releases/tag/v1.0)
+- [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2656314145)
+- [GitHub](https://github.com/Sierra0001/RimFantasy---Arcane-Defences)
 
 ### Credits
 
-SirLalaPyon for his amazing, high-quality vanilla styled art.
+- SirLalaPyon for his amazing, high-quality vanilla styled art.
+- Steve o.O for the gemstone mine textures.
 
 ### Latest Changes
 

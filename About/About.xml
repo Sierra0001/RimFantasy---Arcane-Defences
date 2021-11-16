@@ -11,7 +11,7 @@
 		<li>
 			<packageId>Sierra.RF.Gemstones</packageId>
 	 		<displayName>RimFantasy - Gemstones</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890</steamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -24,28 +24,31 @@
 [h1]Mod Version: v1.0[/h1]
 
 
-Meticulously crafted magical defences designed to provide security to an area where manpower is insufficient. Expensive to craft but makes it up by being exceptionally powerful.
+This mod adds a number of magical defences designed to provide security to an area where manpower is insufficient. Expensive to craft but makes it up by being exceptionally powerful.
 
 The gemstone pylons hold large amount of magical energy and will explode upon imminent destruction.
 
 
 [b]Features:[/b]
 [list]
-[*]7 Utility batons, each with its unique quirks
-[*]2 Researches
+[*]2 Explosive Mines
+[*]2 Defence Pylons
+[*]1 Research
 [/list]
 
 
 [b]Recommended Mods:[/b]
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Gemstones[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Temperature Regulation[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Crystallic Lighting[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Arcane Batons[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1234567890]RimFantasy - Arcane Weapons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656]RimFantasy - Gemstones[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630670287]RimFantasy - Temperature Regulation[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2632845986]RimFantasy - Crystallic Lighting[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2634323159]RimFantasy - Arcane Batons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2651522590]RimFantasy - Arcane Weapons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2655568216]RimFantasy Addon - Heroic Weapons[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talent[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2595980371]Milkshakes - Digital Deluxe Edition[/url]
 [/list]
 
 
@@ -54,7 +57,7 @@ The gemstone pylons hold large amount of magical energy and will explode upon im
 [*]Save Game Compatible
 [*]Will not play nice with other gemstone mods without a patch.
 [/list]
-
+[i]Dr Zhivago's [b]DocUniversalResources[/b] (DUR) will address resource overlaps for mod compatibility when it is finished.[/i]
 
 
 [b]Balance:[/b]
@@ -63,12 +66,14 @@ Gems are intentionally sparse and not easy to obtain through natural means, but 
 Balance feedbacks are welcomed, please provide context when doing so.
 
 
-[url=https://discord.gg/rimworld]Click here to join us on the Community Discord![/url]
+[h1][url=https://discord.gg/rimworld]Click here to join us on the Community Discord![/url][/h1]
+[url=https://ko-fi.com/sierra0001][img]https://i.imgur.com/SBiUpbW.png[/img][/url]
 
 
 [h1]Credits:[/h1]
 [list]
 [*]SirLalaPyon for his amazing, high quality vanilla styled art.
+[*]Steve o.O for the gemstone mine textures.
 [/list]
 
 
