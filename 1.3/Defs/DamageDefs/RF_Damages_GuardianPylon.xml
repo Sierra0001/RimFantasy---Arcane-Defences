@@ -2,7 +2,7 @@
 <Defs>
 
   <DamageDef>
-    <defName>RF_SentinelPylon_MagicBolt</defName>
+    <defName>RF_GuardianPylon_MagicBolt</defName>
     <label>magic bolt</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>

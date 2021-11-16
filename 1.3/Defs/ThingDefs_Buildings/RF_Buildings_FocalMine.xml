@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="RF_WardingRuneBase" ParentName="BuildingBase" Abstract="True">
+  <ThingDef Name="RF_FocalMineBase" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building_TrapExplosive</thingClass>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.5,1.5)</drawSize>
       <damageData>
         <rect>(0.1,0,0.8,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconOffset>(0,-0.14)</uiIconOffset>
+    <uiIconOffset>(0,0)</uiIconOffset>
     <altitudeLayer>Building</altitudeLayer>
     <rotatable>false</rotatable>
     <tickerType>Normal</tickerType>
@@ -35,29 +37,33 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="RF_WardingRuneBase">
-    <defName>RF_MinorWardingRune</defName>
-    <label>minor warding rune</label>
-    <description>A carefully crafted rune that discharges distructive magical energy upon touch or damage.\n\nThis variant is easier and cheaper to make but is accordingly weaker.</description>
+  <ThingDef ParentName="RF_FocalMineBase">
+    <defName>RF_FocalMine</defName>
+    <label>focal mine</label>
+    <description>A carefully crafted mine that discharges destructive magical energy upon contact.\n\nThis variant causes more damage, but has a smaller explosion radius.</description>
     <graphicData>
-      <texPath>Things/Building/Security/RF_MinorWardingRune</texPath>
+      <texPath>Things/Building/Security/RF_FocalMine</texPath>
     </graphicData>
     <stuffCategories>
-      <li>RF_Gemstones</li>
+      <li>Metallic</li>
+      <li>Stony</li>
     </stuffCategories>
     <costStuffCount>3</costStuffCount>
+    <costList>
+        <RF_RoughKunzite>3</RF_RoughKunzite>
+    </costList>
     <comps>
-      <li Class="RimFantasy.CompProperties_GlowerStuffable">
-        <glowRadius>2</glowRadius>
-        <stuffGlow>true</stuffGlow>
+      <li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(235,180,237)</glowColor>
       </li>
-      <li Class="RimFantasy.CompProperties_ExplosiveStuffed">
-        <wickTicks>15</wickTicks>
-        <explosiveRadius>4</explosiveRadius>
-        <explosiveDamageTypeBaseDefName>RF_Flame_LargeSquare</explosiveDamageTypeBaseDefName>
-        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
-        <postExplosionSpawnChance>0.1</postExplosionSpawnChance>
-        <postExplosionSpawnBaseDefName>RF_RubbleShards</postExplosionSpawnBaseDefName>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>45</wickTicks>
+        <explosiveRadius>2</explosiveRadius>
+        <explosiveDamageType>RF_Bomb_LargeSquareRF_Kunzite</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+        <postExplosionSpawnChance>0.05</postExplosionSpawnChance>
+        <postExplosionSpawnThingDef>RF_RubbleShardsRF_Kunzite</postExplosionSpawnThingDef>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
       </li>
       <!--<li Class="CompProperties_Explosive">
@@ -75,7 +81,7 @@
         </startWickOnDamageTaken>
       </li>-->
     </comps>
-    <specialDisplayRadius>3.9</specialDisplayRadius>
+    <specialDisplayRadius>2</specialDisplayRadius>
   </ThingDef>
 
 </Defs>
