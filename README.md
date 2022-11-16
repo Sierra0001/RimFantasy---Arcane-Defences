@@ -1,4 +1,4 @@
-# RimFantasy - Arcane Weapons
+# RimFantasy - Arcane Defences
 
 This mod adds a number of magical defences designed to provide security to an area where manpower is insufficient. Expensive to craft but makes it up by being exceptionally powerful.
 
